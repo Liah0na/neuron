@@ -29,7 +29,7 @@ const App = () => {
           <Stack direction="row" spacing={1} alignItems={"center"}>
             <Box
               component="img"
-              src="images/NeuronLogo.svg"
+              src="/images/logo.svg"
               alt="Neuron IT Solutions"
               sx={{ height: 40, width: "auto" }}
             />
