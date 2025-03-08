@@ -1,7 +1,10 @@
-@import url('@fontsource/inter/index.css');
+@import url('@fontsource/inter');
+@import url('@fontsource/roboto-condensed');
 
+html,
 body {
-  font-family: 'Inter', 'Trebuchet MS';
+  margin: 0;
+  padding: 0;
 }
 
 .MuiButton-root {
