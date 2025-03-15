@@ -32,7 +32,6 @@ const Header = () => {
             sx={{ height: 40, width: "auto" }}
           />
           <Typography
-            color="primary"
             variant="h6"
             sx={{ color: neuron.palette.blue.b700 }}
           >
