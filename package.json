@@ -10,7 +10,7 @@
   "keywords": [],
   "author": "Nestor R. Otondo",
   "license": "ISC",
-  "description": "",
+  "description": "Infraestructura digital en la nube: hosting, seguridad, desarrollo y optimización web.",
   "devDependencies": {
     "@babel/core": "^7.26.9",
     "@babel/preset-env": "^7.26.9",
