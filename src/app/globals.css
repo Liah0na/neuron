@@ -1,6 +1,13 @@
 @import "tailwindcss";
 
 :root {
+  /*---:[Colors]:---*/
+  --blue-700: rgb(12,102,228);
+  --blue-800: rgb(0,85,204);
+  --blue-1000: rgb(28,43,65);
+  --teal-1000: rgb(30,49,55);
+  
+  /*---:[Fonts]:---*/
   --font-roboto: 'Roboto';
   --font-inter: 'Inter';
 }
@@ -20,4 +27,19 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.logo {
+  color: var(--blue-800);
+  font-family: var(--font-inter);
+  font-size: 1.45rem;
+  font-weight: bold;
+}
+
+.top-bar {
+  background-color: var(--blue-1000);
+}
+
+.navbar {
+  border-color: var(--blue-800);
 }
