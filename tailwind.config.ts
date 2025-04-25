@@ -10,7 +10,7 @@ const config: Config = {
     extend: {
       fontFamily: {
         primary: ['var(--font-roboto)'],
-        secondary: ['var(--font-inter)'],
+        secondary: ['var(--font-sora)'],
       },
     },
   },

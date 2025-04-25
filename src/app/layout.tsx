@@ -2,18 +2,17 @@ import type { Metadata } from 'next'
 import './globals.css'
 import { Navbar } from '@/components/layout/Navbar'
 import { Footer } from '@/components/layout/Footer'
-import { Inter, Roboto_Condensed } from 'next/font/google'
-
-const inter = Inter({
-  style: ['normal', 'italic'],
-  subsets: ['latin'],
-  variable: '--font-inter',
-  weight: ['400', '700', '900'],
-})
+import { Roboto_Condensed, Sora } from 'next/font/google'
 
 const roboto = Roboto_Condensed({
   subsets: ['latin'],
   variable: '--font-roboto',
+  weight: ['400', '700']
+})
+
+const sora = Sora({
+  subsets: ['latin'],
+  variable: '--font-sora',
   weight: ['400', '700']
 })
 
@@ -35,7 +34,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html className={`${inter.variable} ${roboto.variable}`} lang="es">
+    <html className={`${roboto.variable} ${sora.variable}`} lang="es">
       <body className="flex flex-col min-h-screen">
         <Navbar />
         <main className="flex-1">{children}</main>
