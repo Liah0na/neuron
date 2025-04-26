@@ -49,3 +49,8 @@ a {
   font-size: 3.8rem;
   font-weight: 400;
 }
+
+footer .neuron {
+  color: var(--blue-800);
+  font-weight: 700;
+}

@@ -39,7 +39,7 @@ export default function PricingSection() {
         <div className="relative bg-gray-100 rounded-2xl p-6 flex justify-between items-start shadow-md">
           <WaveBackground />
           {/* Popular badge */}
-          <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-white px-4 py-1 rounded-b-full shadow text-xs font-medium">
+          <div className="absolute -top-0 left-1/2 -translate-x-1/2 bg-white px-4 py-1 rounded-b-full shadow text-xs font-medium">
             Popular
           </div>
 

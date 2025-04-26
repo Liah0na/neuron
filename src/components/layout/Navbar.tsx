@@ -26,7 +26,7 @@ export function Navbar() {
           <nav className="space-x-6">
             <a href="#services" className="text-gray-700 hover:text-blue-600">Servicios</a>
             <a href="#about" className="text-gray-700 hover:text-blue-600">Sobre Nosotros</a>
-            <a href="#contact" className="text-gray-700 hover:text-blue-600">Contacto</a>
+            <a href="contact/" className="text-gray-700 hover:text-blue-600">Contacto</a>
           </nav>
         </div>
       </section>
