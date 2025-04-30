@@ -5,12 +5,12 @@ import { FaFacebookF, FaXTwitter, FaLinkedinIn, FaYoutube } from 'react-icons/fa
 export default function ContactPage() {
   return (
     <>
-      <div className="relative w-full h-54">
+      <div className="relative w-full h-54" id="contact">
         <Image
-          alt="Aritifial Inteliigence - PixABay.com"
+          alt="Aritifial Intelligence - PixABay.com"
           className="object-cover"
           fill
-          src="https://cdn.pixabay.com/photo/2018/05/08/08/44/artificial-intelligence-3382507_960_720.jpg"
+          src="https://cdn.pixabay.com/photo/2024/05/21/19/58/code-8779057_1280.jpg"
         />
         <div className="container relative h-54 mx-auto">
           <div className="absolute bottom-0 bg-white px-8 py-1 rounded-t-full right-0 shadow text-xs font-medium">

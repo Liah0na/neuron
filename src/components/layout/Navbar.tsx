@@ -6,7 +6,7 @@ export function Navbar() {
   return (
     <header className="border-b navbar">
       <section className="container mx-auto my-2">
-        <div className="hidden sm:flex w-full top-bar text-white px-4 py-1 text-sm rounded-full justify-between items-center sticky top-0 z-50">
+        <div className="hidden sm:flex w-full top-bar text-white px-4 py-1 text-sm rounded-full justify-between items-center">
           <div className="flex gap-6">
             <span>Call us: +55 (21) 97120-0622</span>
             <span>Email: <a href="mailto:contact@neuronit.com.br" className="underline">contact@neuronit.com.br</a></span>
@@ -24,9 +24,8 @@ export function Navbar() {
             <span className="italic">Neuron</span> IT
           </Link>
           <nav className="space-x-6">
-            <a href="#services" className="text-gray-700 hover:text-blue-600">Servicios</a>
-            <a href="#about" className="text-gray-700 hover:text-blue-600">Sobre Nosotros</a>
-            <a href="contact/" className="text-gray-700 hover:text-blue-600">Contacto</a>
+            <a href="#services" className="text-gray-700 hover:text-blue-600">Services</a>
+            <a href="#contact" className="text-gray-700 hover:text-blue-600">Contact Us</a>
           </nav>
         </div>
       </section>

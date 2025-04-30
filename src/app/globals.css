@@ -2,6 +2,7 @@
 
 :root {
   /*---:[Colors]:---*/
+  --blue-100: rgb(233,242,255);
   --blue-200: rgb(204,224,255);
   --blue-700: rgb(12,102,228);
   --blue-800: rgb(0,85,204);
@@ -53,4 +54,16 @@ a {
 footer .neuron {
   color: var(--blue-800);
   font-weight: 700;
+}
+
+.services {
+  background-color: var(--blue-100);
+  margin: 80px 0;
+  padding: 20px 0;
+}
+
+.services img {
+  border: 1px solid var(--blue-200);
+  border-radius: 5px;
+  padding: 5px;
 }

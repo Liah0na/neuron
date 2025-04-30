@@ -1,9 +1,13 @@
-import PricingSection from '@/sections/PricingSection'
+import Pricing from '@/sections/Pricing'
+import Contact from './contact/page'
+import { Services } from '@/sections/Services'
 
 export default function Home() {
   return (
     <section className="container mx-auto">
-      <PricingSection />
+      <Pricing />
+      <Services />
+      <Contact />
     </section>
   )
 }
